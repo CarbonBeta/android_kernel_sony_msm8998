@@ -74,6 +74,4 @@ obj-$(CONFIG_COMPAT) += mdss_compat_utils.o
 
 # TODO: remove me b/62058353
 subdir-ccflags-y += \
-	-Wno-parentheses-equality \
-	-Wno-duplicate-decl-specifier
-
+	-Wno-parentheses-equality
